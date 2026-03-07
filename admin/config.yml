@@ -1,0 +1,166 @@
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/inpetto-website
+  branch: main
+  base_url: https://YOUR_OAUTH_WORKER.workers.dev
+
+media_folder: assets/uploads
+public_folder: /assets/uploads
+
+# ──────────────────────────────────────────────
+# COLLECTIONS
+# ──────────────────────────────────────────────
+
+collections:
+
+  # ── BLOG POSTS ──────────────────────────────
+  - name: posts
+    label: Blog Posts
+    label_singular: Blog Post
+    folder: _posts
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    extension: json
+    format: json
+    identifier_field: title
+    fields:
+      - { label: Title,    name: title,    widget: string }
+      - { label: Slug,     name: slug,     widget: string,   hint: "URL-friendly ID, e.g. why-reels-win" }
+      - { label: Date,     name: date,     widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: Author,   name: author,   widget: string,   default: "Inpetto Team" }
+      - label: Category
+        name: category
+        widget: select
+        options:
+          - Strategy
+          - TikTok
+          - Instagram
+          - Content
+          - Paid Social
+          - Community
+          - Platform Guide
+          - Industry News
+      - { label: Excerpt,  name: excerpt,  widget: text,     hint: "Short summary shown in blog listings (max 200 chars)" }
+      - { label: "Hero Image", name: image, widget: image,   required: false }
+      - label: "Placeholder Class"
+        name: placeholderClass
+        widget: select
+        required: false
+        default: "blog-img--1"
+        options:
+          - blog-img--1
+          - blog-img--2
+          - blog-img--3
+          - blog-img--4
+      - { label: Featured, name: featured, widget: boolean,  default: false }
+      - { label: Body,     name: body,     widget: markdown }
+
+  # ── WORKS / CASE STUDIES ────────────────────
+  - name: works
+    label: Case Studies
+    label_singular: Case Study
+    folder: _works
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    extension: json
+    format: json
+    identifier_field: title
+    fields:
+      - { label: Title,    name: title,    widget: string }
+      - { label: Slug,     name: slug,     widget: string }
+      - { label: Client,   name: client,   widget: string }
+      - label: Category
+        name: category
+        widget: select
+        options: [E-Commerce, Hospitality, Lifestyle, Fashion, Beauty, Wellness, Technology, Other]
+      - label: Tags
+        name: tags
+        widget: list
+        field: { label: Tag, name: tag, widget: string }
+        hint: "e.g. Instagram, TikTok, UGC, Paid Social"
+      - { label: Description, name: description, widget: text }
+      - label: Results
+        name: results
+        widget: list
+        field: { label: Result, name: result, widget: string }
+        hint: "Key outcomes, e.g. '240% increase in revenue'"
+      - { label: "Cover Image", name: image,  widget: image,  required: false }
+      - label: "Placeholder Class"
+        name: placeholderClass
+        widget: select
+        required: false
+        default: "service-img--ecom"
+        options:
+          - service-img--ecom
+          - service-img--lifestyle
+          - service-img--hospo
+      - { label: Featured, name: featured, widget: boolean, default: false }
+      - { label: Year,     name: year,     widget: string,  required: false }
+      - { label: "Full Case Study Body", name: body, widget: markdown, required: false }
+
+  # ── TEAM MEMBERS ────────────────────────────
+  - name: team
+    label: Team Members
+    label_singular: Team Member
+    folder: _team
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    extension: json
+    format: json
+    identifier_field: name
+    fields:
+      - { label: Name,   name: name,   widget: string }
+      - { label: Role,   name: role,   widget: string }
+      - { label: Bio,    name: bio,    widget: text }
+      - { label: Photo,  name: image,  widget: image,  required: false }
+      - label: "Placeholder Class"
+        name: placeholderClass
+        widget: select
+        required: false
+        default: "team-img--1"
+        options: [team-img--1, team-img--2, team-img--3]
+      - label: Social Links
+        name: socials
+        widget: object
+        required: false
+        fields:
+          - { label: Instagram, name: instagram, widget: string, required: false }
+          - { label: LinkedIn,  name: linkedin,  widget: string, required: false }
+          - { label: Twitter,   name: twitter,   widget: string, required: false }
+      - { label: "Sort Order", name: order, widget: number, default: 0, required: false }
+
+  # ── SITE SETTINGS ────────────────────────────
+  - name: settings
+    label: Site Settings
+    files:
+      - label: "General Settings"
+        name: general
+        file: _data/settings.json
+        fields:
+          - { label: "Site Name",    name: site_name,    widget: string }
+          - { label: "Tagline",      name: tagline,      widget: string }
+          - { label: "Description",  name: description,  widget: text }
+          - { label: "Email",        name: email,        widget: string }
+          - { label: "Phone",        name: phone,        widget: string, required: false }
+          - { label: "Address",      name: address,      widget: string }
+          - { label: "Instagram URL", name: instagram,   widget: string, required: false }
+          - { label: "TikTok URL",   name: tiktok,       widget: string, required: false }
+          - { label: "LinkedIn URL", name: linkedin,     widget: string, required: false }
+          - label: "Hero Headline"
+            name: hero_headline_1
+            widget: string
+            hint: "First line of the hero headline"
+          - name: hero_headline_2
+            label: "Hero Headline Line 2"
+            widget: string
+          - name: hero_headline_3
+            label: "Hero Headline Line 3"
+            widget: string
+          - { label: "Hero Subtext", name: hero_sub, widget: text }
+          - { label: "Brands Served (stat)", name: stat_brands,    widget: string, default: "50+" }
+          - { label: "Followers Grown (stat)", name: stat_followers, widget: string, default: "2.8M+" }
+          - { label: "Engagement Lift (stat)", name: stat_engagement, widget: string, default: "180%" }
+          - { label: "Years Running (stat)", name: stat_years, widget: string, default: "4+" }

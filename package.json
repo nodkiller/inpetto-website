@@ -1,0 +1,11 @@
+{
+  "name": "inpetto-website",
+  "version": "1.0.0",
+  "description": "Inpetto — Social Media Marketing Agency Website",
+  "scripts": {
+    "sync": "node scripts/sync-blog.js",
+    "serve": "npx serve . -p 3000"
+  },
+  "private": true,
+  "devDependencies": {}
+}

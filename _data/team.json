@@ -1,0 +1,66 @@
+{
+  "team": [
+    {
+      "name": "Mia Chen",
+      "role": "Founder & Creative Director",
+      "bio": "Mia founded Inpetto after 6 years in brand strategy and content at agencies across Sydney and Melbourne. She's obsessed with the intersection of creativity and data.",
+      "image": "",
+      "placeholderClass": "team-img--1",
+      "socials": {
+        "instagram": "https://instagram.com/",
+        "linkedin": "https://linkedin.com/"
+      }
+    },
+    {
+      "name": "Jack Moretti",
+      "role": "Head of Strategy",
+      "bio": "Jack leads strategy across all client accounts. With a background in digital marketing at a Big 4 consulting firm, he brings rigour and creativity in equal measure.",
+      "image": "",
+      "placeholderClass": "team-img--2",
+      "socials": {
+        "linkedin": "https://linkedin.com/"
+      }
+    },
+    {
+      "name": "Priya Sharma",
+      "role": "Paid Social Lead",
+      "bio": "Priya manages paid social across Meta and TikTok for Inpetto's clients. She's managed over $2M in ad spend and has a knack for finding the creative angles that drive conversions.",
+      "image": "",
+      "placeholderClass": "team-img--3",
+      "socials": {
+        "linkedin": "https://linkedin.com/"
+      }
+    },
+    {
+      "name": "Luca Fitzgerald",
+      "role": "Content Director",
+      "bio": "Luca leads content production at Inpetto — overseeing video, photography, and design. He's worked with brands from streetwear startups to ASX-listed companies.",
+      "image": "",
+      "placeholderClass": "team-img--1",
+      "socials": {
+        "instagram": "https://instagram.com/"
+      }
+    },
+    {
+      "name": "Sofia Nakamura",
+      "role": "Influencer Manager",
+      "bio": "Sofia manages Inpetto's influencer relationships and campaigns. She's built partnerships with over 500 creators across lifestyle, fashion, beauty, and food.",
+      "image": "",
+      "placeholderClass": "team-img--2",
+      "socials": {
+        "instagram": "https://instagram.com/",
+        "linkedin": "https://linkedin.com/"
+      }
+    },
+    {
+      "name": "Omar Al-Rashid",
+      "role": "Analytics & Growth",
+      "bio": "Omar turns data into decisions. He builds reporting dashboards, tracks growth metrics, and makes sure every strategy is informed by real insights.",
+      "image": "",
+      "placeholderClass": "team-img--3",
+      "socials": {
+        "linkedin": "https://linkedin.com/"
+      }
+    }
+  ]
+}

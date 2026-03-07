@@ -1,0 +1,10 @@
+# Cloudflare Pages / Netlify redirects
+
+# CMS auth callback
+/admin/auth-callback  /admin/auth-callback.html  200
+
+# Blog posts in /blog/ subdirectory served by blog-post.html template
+/blog/:slug  /blog-post.html  200
+
+# Works in /works/ subdirectory
+/works/:slug  /works-post.html  200
