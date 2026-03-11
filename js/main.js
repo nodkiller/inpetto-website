@@ -368,7 +368,12 @@
      INIT
   ================================================================ */
   document.addEventListener('DOMContentLoaded', () => {
-    document.body.classList.add('no-scroll');
+    const hasPreloader = !!document.getElementById('preloader');
+    if (hasPreloader) {
+      document.body.classList.add('no-scroll');
+    } else {
+      initScrollReveal();
+    }
 
     initPreloader();
     initNav();

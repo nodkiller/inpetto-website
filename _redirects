@@ -7,4 +7,4 @@
 /blog/:slug  /blog-post.html  200
 
 # Works in /works/ subdirectory
-/works/:slug  /works-post.html  200
+/works/:slug  /works/index.html  200
