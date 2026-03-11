@@ -1,9 +1,9 @@
 {
   "team": [
     {
-      "name": "Ella Zhang",
+      "name": "Selina Fan",
       "role": "Founder & Creative Director",
-      "bio": "Ella founded Inpetto after 7 years leading brand and content strategy at agencies across Sydney and Melbourne. She's obsessed with the intersection of creativity and culture.",
+      "bio": "Selina founded Inpetto after 7 years leading brand and content strategy at agencies across Melbourne and Shanghai. She's obsessed with the intersection of creativity and culture — and building brands that actually mean something.",
       "image": "https://randomuser.me/api/portraits/women/44.jpg",
       "placeholderClass": "team-img--1",
       "socials": {
@@ -22,9 +22,9 @@
       }
     },
     {
-      "name": "Priya Sharma",
+      "name": "Chloe Wang",
       "role": "Paid Social Lead",
-      "bio": "Priya manages paid social across Meta and TikTok for Inpetto's clients. She's overseen $2M+ in ad spend and has a talent for finding the creative angles that convert.",
+      "bio": "Chloe manages paid social across Meta and TikTok for Inpetto's clients. She's overseen $2M+ in ad spend and has a talent for finding the creative angles that convert.",
       "image": "https://randomuser.me/api/portraits/women/65.jpg",
       "placeholderClass": "team-img--3",
       "socials": {
@@ -32,9 +32,9 @@
       }
     },
     {
-      "name": "Luca Fitzgerald",
+      "name": "Kevin Chen",
       "role": "Content Director",
-      "bio": "Luca leads content production at Inpetto — overseeing video, photography, and design. He's worked with brands from streetwear startups to ASX-listed companies.",
+      "bio": "Kevin leads content production at Inpetto — overseeing video, photography, and design. He's worked with brands from streetwear startups to ASX-listed companies.",
       "image": "https://randomuser.me/api/portraits/men/75.jpg",
       "placeholderClass": "team-img--1",
       "socials": {
@@ -43,10 +43,10 @@
       }
     },
     {
-      "name": "Sofia Nakamura",
+      "name": "Michelle Lin",
       "role": "Influencer Manager",
-      "bio": "Sofia manages Inpetto's influencer relationships and campaigns. She's built partnerships with 500+ creators across lifestyle, fashion, beauty, and food verticals.",
-      "image": "https://randomuser.me/api/portraits/women/23.jpg",
+      "bio": "Michelle manages Inpetto's influencer relationships and campaigns. She's built partnerships with 500+ creators across lifestyle, fashion, beauty, and food verticals.",
+      "image": "https://randomuser.me/api/portraits/women/56.jpg",
       "placeholderClass": "team-img--2",
       "socials": {
         "instagram": "https://instagram.com/",
@@ -54,9 +54,9 @@
       }
     },
     {
-      "name": "Omar Al-Rashid",
+      "name": "Jason Liu",
       "role": "Analytics & Growth",
-      "bio": "Omar turns data into decisions. He builds reporting dashboards, tracks growth metrics, and ensures every strategy is grounded in real insights — not guesswork.",
+      "bio": "Jason turns data into decisions. He builds reporting dashboards, tracks growth metrics, and ensures every strategy is grounded in real insights — not guesswork.",
       "image": "https://randomuser.me/api/portraits/men/88.jpg",
       "placeholderClass": "team-img--3",
       "socials": {
