@@ -2,7 +2,7 @@ backend:
   name: github
   repo: nodkiller/inpetto-website
   branch: main
-  base_url: https://cms-auth.bojackman.workers.dev
+  base_url: https://inpetto-cms-auth.bojackman.workers.dev
 
 media_folder: assets/uploads
 public_folder: /assets/uploads

@@ -1,10 +1,10 @@
 {
   "team": [
     {
-      "name": "Mia Chen",
+      "name": "Ella Zhang",
       "role": "Founder & Creative Director",
-      "bio": "Mia founded Inpetto after 6 years in brand strategy and content at agencies across Sydney and Melbourne. She's obsessed with the intersection of creativity and data.",
-      "image": "",
+      "bio": "Ella founded Inpetto after 7 years leading brand and content strategy at agencies across Sydney and Melbourne. She's obsessed with the intersection of creativity and culture.",
+      "image": "https://randomuser.me/api/portraits/women/44.jpg",
       "placeholderClass": "team-img--1",
       "socials": {
         "instagram": "https://instagram.com/",
@@ -12,10 +12,10 @@
       }
     },
     {
-      "name": "Jack Moretti",
+      "name": "James Moretti",
       "role": "Head of Strategy",
-      "bio": "Jack leads strategy across all client accounts. With a background in digital marketing at a Big 4 consulting firm, he brings rigour and creativity in equal measure.",
-      "image": "",
+      "bio": "James leads strategy across all client accounts. With a background in digital marketing at a Big 4 consulting firm, he brings rigour and creativity in equal measure.",
+      "image": "https://randomuser.me/api/portraits/men/32.jpg",
       "placeholderClass": "team-img--2",
       "socials": {
         "linkedin": "https://linkedin.com/"
@@ -24,8 +24,8 @@
     {
       "name": "Priya Sharma",
       "role": "Paid Social Lead",
-      "bio": "Priya manages paid social across Meta and TikTok for Inpetto's clients. She's managed over $2M in ad spend and has a knack for finding the creative angles that drive conversions.",
-      "image": "",
+      "bio": "Priya manages paid social across Meta and TikTok for Inpetto's clients. She's overseen $2M+ in ad spend and has a talent for finding the creative angles that convert.",
+      "image": "https://randomuser.me/api/portraits/women/65.jpg",
       "placeholderClass": "team-img--3",
       "socials": {
         "linkedin": "https://linkedin.com/"
@@ -35,17 +35,18 @@
       "name": "Luca Fitzgerald",
       "role": "Content Director",
       "bio": "Luca leads content production at Inpetto — overseeing video, photography, and design. He's worked with brands from streetwear startups to ASX-listed companies.",
-      "image": "",
+      "image": "https://randomuser.me/api/portraits/men/75.jpg",
       "placeholderClass": "team-img--1",
       "socials": {
-        "instagram": "https://instagram.com/"
+        "instagram": "https://instagram.com/",
+        "linkedin": "https://linkedin.com/"
       }
     },
     {
       "name": "Sofia Nakamura",
       "role": "Influencer Manager",
-      "bio": "Sofia manages Inpetto's influencer relationships and campaigns. She's built partnerships with over 500 creators across lifestyle, fashion, beauty, and food.",
-      "image": "",
+      "bio": "Sofia manages Inpetto's influencer relationships and campaigns. She's built partnerships with 500+ creators across lifestyle, fashion, beauty, and food verticals.",
+      "image": "https://randomuser.me/api/portraits/women/23.jpg",
       "placeholderClass": "team-img--2",
       "socials": {
         "instagram": "https://instagram.com/",
@@ -55,8 +56,8 @@
     {
       "name": "Omar Al-Rashid",
       "role": "Analytics & Growth",
-      "bio": "Omar turns data into decisions. He builds reporting dashboards, tracks growth metrics, and makes sure every strategy is informed by real insights.",
-      "image": "",
+      "bio": "Omar turns data into decisions. He builds reporting dashboards, tracks growth metrics, and ensures every strategy is grounded in real insights — not guesswork.",
+      "image": "https://randomuser.me/api/portraits/men/88.jpg",
       "placeholderClass": "team-img--3",
       "socials": {
         "linkedin": "https://linkedin.com/"
