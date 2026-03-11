@@ -5,79 +5,22 @@
       "title": "Coastal Collective",
       "client": "Coastal Collective",
       "category": "E-Commerce",
-      "tags": ["Instagram", "TikTok", "UGC"],
-      "description": "A Melbourne-based fashion brand with a loyal online community. We rebuilt their social strategy from the ground up, leaning into UGC, Reels, and TikTok Shop to drive a 240% increase in social-attributed revenue.",
-      "results": ["240% increase in social-attributed revenue", "85K new Instagram followers in 6 months", "4.8% average engagement rate"],
-      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=85&fit=crop&crop=center",
+      "tags": [
+        "Instagram",
+        "TikTok",
+        "UGC"
+      ],
+      "description": "A Melbourne-based fashion brand with a loyal online community. We rebuilt their social strategy from the ground up, leaning into UGC, Reels, and TikTok Shop.",
+      "results": [
+        "240% increase in social-attributed revenue",
+        "85K new Instagram followers in 6 months",
+        "4.8% average engagement rate"
+      ],
+      "image": "",
       "placeholderClass": "service-img--lifestyle",
       "featured": true,
       "year": "2024",
       "body": "## The Brief\n\nCoastal Collective came to us with a strong brand identity and loyal customer base, but a social presence that wasn't converting. They had followers — they just weren't buying.\n\n## Our Approach\n\nWe audited their existing content and identified three core problems: inconsistent posting, no clear content pillars, and a mismatch between their brand aesthetic and what was actually performing on the platform.\n\nWe rebuilt their strategy around three content pillars: product showcases (30%), lifestyle content (40%), and UGC (30%).\n\n## The Results\n\nIn six months, social-attributed revenue grew by 240%. Instagram followers grew by 85K organically. Average engagement rate sits at 4.8% — more than double the industry average."
-    },
-    {
-      "slug": "ember-smoke",
-      "title": "Ember & Smoke",
-      "client": "Ember & Smoke Restaurant Group",
-      "category": "Hospitality",
-      "tags": ["Instagram", "Content", "Paid Social"],
-      "description": "A premium restaurant group in Melbourne's CBD. We created a content strategy anchored in storytelling and atmosphere, driving consistent foot traffic and a sold-out launch of their new venue.",
-      "results": ["Restaurant sold out for 6 weeks post-launch", "38K Instagram followers gained", "2.1M impressions from launch campaign"],
-      "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900&q=85&fit=crop&crop=center",
-      "placeholderClass": "service-img--hospo",
-      "featured": false,
-      "year": "2024"
-    },
-    {
-      "slug": "flux-activewear",
-      "title": "Flux Activewear",
-      "client": "Flux Activewear",
-      "category": "E-Commerce",
-      "tags": ["TikTok", "Influencers", "Growth"],
-      "description": "An Australian activewear brand trying to break through a crowded market. We built a TikTok-first influencer strategy that drove their launch collection to sell out within 72 hours.",
-      "results": ["Sold out launch collection in 72 hours", "12M TikTok views across campaign", "180% ROI on influencer spend"],
-      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=900&q=85&fit=crop&crop=center",
-      "placeholderClass": "service-img--ecom",
-      "featured": false,
-      "year": "2023"
-    },
-    {
-      "slug": "verde-health",
-      "title": "Verde Health",
-      "client": "Verde Health Co.",
-      "category": "Wellness",
-      "tags": ["Instagram", "Strategy", "Analytics"],
-      "description": "A health supplement brand with great products but no social presence. We built their content strategy, visual identity for social, and paid funnel — growing from 200 to 28,000 Instagram followers in one year.",
-      "results": ["0 to 28,000 Instagram followers in 12 months", "3.9% average engagement rate", "62% of website traffic now from social"],
-      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=900&q=85&fit=crop&crop=center",
-      "placeholderClass": "service-img--lifestyle",
-      "featured": false,
-      "year": "2023"
-    },
-    {
-      "slug": "nori-collective",
-      "title": "Nori Collective",
-      "client": "Nori Collective",
-      "category": "Hospitality",
-      "tags": ["TikTok", "Instagram", "Brand Story"],
-      "description": "A Japanese-Australian fusion dining concept in Melbourne. We told their story through cinematic short-form video, creating a waitlist of 400+ before their doors even opened.",
-      "results": ["400+ waitlist before opening", "6M TikTok views in launch month", "Featured in 8 food media publications"],
-      "image": "https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=900&q=85&fit=crop&crop=center",
-      "placeholderClass": "service-img--hospo",
-      "featured": false,
-      "year": "2024"
-    },
-    {
-      "slug": "lumiere-skin",
-      "title": "Lumière Skin",
-      "client": "Lumière Skin Co.",
-      "category": "Beauty",
-      "tags": ["Instagram", "Influencers", "Ads"],
-      "description": "A clean beauty brand launching into a competitive skincare market. We managed a 40-creator seeding campaign alongside paid Meta ads, achieving a 3.4× ROAS from launch.",
-      "results": ["3.4× ROAS on Meta ads", "40 creators in launch seeding", "22,000 new Instagram followers in 3 months"],
-      "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=900&q=85&fit=crop&crop=center",
-      "placeholderClass": "service-img--lifestyle",
-      "featured": false,
-      "year": "2025"
     }
   ]
 }
