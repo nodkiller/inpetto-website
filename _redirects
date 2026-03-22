@@ -3,8 +3,8 @@
 # CMS auth callback
 /admin/auth-callback  /admin/auth-callback.html  200
 
-# Blog posts — clean URL
+# Blog posts — clean URL → root-level template
 /blog/:slug  /blog-post.html  200
 
-# Works — clean URL
-/works/:slug  /works/index.html  200
+# Works — clean URL → root-level template (avoids /works/ directory collision)
+/works/:slug  /work-detail.html  200

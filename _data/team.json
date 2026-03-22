@@ -1,21 +1,21 @@
 {
   "team": [
     {
-      "name": "Chloe Wang",
-      "role": "Community & Influencer Manager",
-      "bio": "Chloe manages influencer partnerships and community engagement across all client accounts. She's built relationships with 300+ creators in lifestyle, food, beauty, and fitness verticals across Australia.",
-      "image": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=400&q=85&fit=crop&crop=face",
+      "name": "Selina Fan",
+      "role": "Founder & Creative Director",
+      "bio": "Selina founded Inpetto after 7 years leading brand and content strategy at agencies across Melbourne and Shanghai. She's obsessed with the intersection of creativity and culture — and building brands that actually mean something on social.",
+      "image": "https://images.unsplash.com/photo-1659482634023-2c4fda99ac0c?w=400&q=85&fit=crop&crop=face&facepad=2",
       "placeholderClass": "team-img--1",
       "socials": {
-        "instagram": "https://instagram.com/chloewang",
-        "linkedin": "https://linkedin.com/in/chloewang"
+        "instagram": "https://instagram.com/selinafan",
+        "linkedin": "https://linkedin.com/in/selinafan"
       }
     },
     {
       "name": "Kevin Chen",
       "role": "Content & Strategy Lead",
       "bio": "Kevin leads content production and strategy at Inpetto — overseeing video, photography, and campaign direction. Before Inpetto, he spent 4 years at a top Melbourne creative agency working with DTC and hospitality brands.",
-      "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&q=85&fit=crop&crop=face",
+      "image": "https://images.unsplash.com/photo-1611432579699-484f7990b127?w=400&q=85&fit=crop&crop=face&facepad=2",
       "placeholderClass": "team-img--2",
       "socials": {
         "linkedin": "https://linkedin.com/in/kevinchen"
@@ -25,21 +25,21 @@
       "name": "Michelle Lin",
       "role": "Paid Social & Analytics",
       "bio": "Michelle manages paid social across Meta and TikTok for all Inpetto clients. She's managed over $1.5M in ad spend and has a sharp eye for the creative angles that actually convert.",
-      "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=85&fit=crop&crop=face",
+      "image": "https://images.unsplash.com/photo-1664575602554-2087b04935a5?w=400&q=85&fit=crop&crop=face&facepad=2",
       "placeholderClass": "team-img--3",
       "socials": {
         "linkedin": "https://linkedin.com/in/michellelin"
       }
     },
     {
-      "name": "Selina Fan",
-      "role": "Founder & Creative Director",
-      "bio": "Selina founded Inpetto after 7 years leading brand and content strategy at agencies across Melbourne and Shanghai. She's obsessed with the intersection of creativity and culture — and building brands that actually mean something on social.",
-      "image": "https://images.unsplash.com/photo-1615109398623-88346a601842?w=400&q=85&fit=crop&crop=face",
+      "name": "Chloe Wang",
+      "role": "Community & Influencer Manager",
+      "bio": "Chloe manages influencer partnerships and community engagement across all client accounts. She's built relationships with 300+ creators in lifestyle, food, beauty, and fitness verticals across Australia.",
+      "image": "https://images.unsplash.com/photo-1665686306574-1ace09918530?w=400&q=85&fit=crop&crop=face&facepad=2",
       "placeholderClass": "team-img--1",
       "socials": {
-        "instagram": "https://instagram.com/selinafan",
-        "linkedin": "https://linkedin.com/in/selinafan"
+        "instagram": "https://instagram.com/chloewang",
+        "linkedin": "https://linkedin.com/in/chloewang"
       }
     }
   ]
