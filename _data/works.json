@@ -5,9 +5,17 @@
       "title": "Golden Crust Bakery",
       "client": "Golden Crust Bakery",
       "category": "Hospitality",
-      "tags": ["Instagram", "Reels", "Local SEO"],
+      "tags": [
+        "Instagram",
+        "Reels",
+        "Local SEO"
+      ],
       "description": "A family-run sourdough bakery in Fitzroy. We turned their morning bake into daily content — growing them from 800 to 14K Instagram followers and making them the most tagged bakery in the inner north.",
-      "results": ["800 to 14K Instagram followers in 8 months", "320% increase in weekend foot traffic", "Most tagged bakery in Fitzroy on Instagram"],
+      "results": [
+        "800 to 14K Instagram followers in 8 months",
+        "320% increase in weekend foot traffic",
+        "Most tagged bakery in Fitzroy on Instagram"
+      ],
       "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=900&q=85&fit=crop&crop=center",
       "placeholderClass": "service-img--hospo",
       "featured": true,
@@ -19,9 +27,17 @@
       "title": "Studio Raw",
       "client": "Studio Raw Fitness",
       "category": "Wellness",
-      "tags": ["TikTok", "Instagram", "UGC"],
+      "tags": [
+        "TikTok",
+        "Instagram",
+        "UGC"
+      ],
       "description": "A boutique reformer Pilates studio in South Yarra. We launched their social from zero, using short-form video and member UGC to fill every class within 3 months of opening.",
-      "results": ["0 to 6.2K followers before opening day", "92% class occupancy within 3 months", "45 UGC posts from members in first month"],
+      "results": [
+        "0 to 6.2K followers before opening day",
+        "92% class occupancy within 3 months",
+        "45 UGC posts from members in first month"
+      ],
       "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=900&q=85&fit=crop&crop=center",
       "placeholderClass": "service-img--lifestyle",
       "featured": false,
@@ -29,41 +45,21 @@
       "body": "## The Brief\n\nStudio Raw was opening a new reformer Pilates studio in South Yarra and needed to build anticipation before doors opened. The founder had zero social media presence and no marketing budget beyond our retainer.\n\n## Our Approach\n\nWe started 8 weeks before launch. Phase one was a teaser campaign — behind-the-scenes TikToks of the studio build-out, the reformer installation, the aesthetic details. Phase two was a \"founding members\" campaign offering early bird pricing, promoted through Instagram Stories and a referral incentive.\n\nPost-launch, we shifted to a UGC strategy: every member who posted a Story tagging Studio Raw got featured on the main account.\n\n## The Results\n\nBy opening day, Studio Raw had 6,200 followers and a waitlist. Within 3 months, class occupancy hit 92%. The UGC strategy generated 45 organic member posts in the first month alone — content we repurposed into paid ads with a 2.8x ROAS."
     },
     {
-      "slug": "momo-dumpling-bar",
-      "title": "Momo Dumpling Bar",
-      "client": "Momo Dumpling Bar",
-      "category": "Hospitality",
-      "tags": ["TikTok", "Content", "Paid Social"],
-      "description": "A late-night dumpling spot in the CBD. One TikTok of their chilli oil dumplings hit 2.4M views — and they've been packed every night since.",
-      "results": ["2.4M views on a single TikTok", "Sold out every Friday & Saturday for 10 weeks", "1,800 new followers in one week"],
-      "image": "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=900&q=85&fit=crop&crop=center",
-      "placeholderClass": "service-img--hospo",
-      "featured": false,
-      "year": "2024",
-      "body": "## The Brief\n\nMomo is a 30-seat dumpling bar on a CBD laneway. Great food, zero online presence. The owner knew social media was important but had no idea where to start.\n\n## Our Approach\n\nWe focused entirely on TikTok. The food was inherently visual — handmade dumplings, chilli oil drizzles, steam rising from bamboo baskets. We filmed a series of close-up food videos with trending audio, posting 4-5 times per week.\n\nThe breakthrough came from a 15-second clip of their signature chilli oil dumplings being pulled apart in slow motion. We boosted it with $50 in TikTok Spark Ads.\n\n## The Results\n\nThat single TikTok hit 2.4M views. Momo was sold out every Friday and Saturday for the next 10 weeks. They gained 1,800 followers in one week and now have a loyal following that drives consistent midweek traffic too."
-    },
-    {
-      "slug": "bloom-skincare",
-      "title": "Bloom Skincare",
-      "client": "Bloom Skincare Co.",
-      "category": "E-Commerce",
-      "tags": ["Instagram", "Influencers", "Ads"],
-      "description": "A small-batch, natural skincare brand based in Melbourne. We managed a 15-creator seeding campaign and Meta ad funnel that delivered 2.6x ROAS from their first product launch.",
-      "results": ["2.6x ROAS on Meta ads from launch", "15 creators in seeding campaign", "8,400 new Instagram followers in 10 weeks"],
-      "image": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=900&q=85&fit=crop&crop=center",
-      "placeholderClass": "service-img--ecom",
-      "featured": false,
-      "year": "2024",
-      "body": "## The Brief\n\nBloom Skincare is a two-person operation making natural, small-batch skincare products from a studio in Brunswick. They had a Shopify store but almost no traffic — and no idea how to launch on social.\n\n## Our Approach\n\nWe ran a two-track launch. First, an influencer seeding campaign: 15 carefully selected nano creators (5K-30K followers) in the skincare and wellness space received product in exchange for honest reviews. Second, we built a Meta ads funnel using the UGC content these creators produced.\n\nMichelle managed the ad creative testing — rotating through 12 different UGC clips to find the top performers, then scaling spend behind the winners.\n\n## The Results\n\nBloom achieved 2.6x ROAS on Meta from their first month of paid activity. The seeding campaign drove 8,400 new Instagram followers in 10 weeks. Three creator posts went organically viral, generating earned media value that far exceeded the seeding cost."
-    },
-    {
       "slug": "thread-and-co",
       "title": "Thread & Co",
       "client": "Thread & Co",
       "category": "E-Commerce",
-      "tags": ["Instagram", "TikTok", "Growth"],
+      "tags": [
+        "Instagram",
+        "TikTok",
+        "Growth"
+      ],
       "description": "A Melbourne-based streetwear label selling through Instagram and markets. We built their content strategy around behind-the-scenes production content, growing their DTC sales by 180% in 6 months.",
-      "results": ["180% increase in DTC online sales", "2.1K to 18K Instagram followers", "4.2% average engagement rate"],
+      "results": [
+        "180% increase in DTC online sales",
+        "2.1K to 18K Instagram followers",
+        "4.2% average engagement rate"
+      ],
       "image": "https://images.unsplash.com/photo-1523398002811-999ca8dec234?w=900&q=85&fit=crop&crop=center",
       "placeholderClass": "service-img--ecom",
       "featured": false,
@@ -71,18 +67,70 @@
       "body": "## The Brief\n\nThread & Co is a small streetwear label run by two designers out of a Collingwood warehouse. They were selling well at weekend markets but couldn't translate that energy online. Instagram felt flat and wasn't driving sales.\n\n## Our Approach\n\nWe repositioned their content strategy around the maker story. Instead of polished product shots, we focused on raw behind-the-scenes content: the screen printing process, fabric sourcing trips, packing orders at 2am before a drop.\n\nWe created a consistent posting cadence — 4 feed posts and 10+ Stories per week — and introduced a \"Drop Day\" content format on TikTok that built anticipation for each new release.\n\n## The Results\n\nIn 6 months, Thread & Co grew from 2,100 to 18,000 Instagram followers. DTC online sales increased by 180%. Their engagement rate sits at 4.2% — well above industry average — because their audience feels like insiders, not just customers."
     },
     {
+      "slug": "bloom-skincare",
+      "title": "Bloom Skincare",
+      "client": "Bloom Skincare Co.",
+      "category": "E-Commerce",
+      "tags": [
+        "Instagram",
+        "Influencers",
+        "Ads"
+      ],
+      "description": "A small-batch, natural skincare brand based in Melbourne. We managed a 15-creator seeding campaign and Meta ad funnel that delivered 2.6x ROAS from their first product launch.",
+      "results": [
+        "2.6x ROAS on Meta ads from launch",
+        "15 creators in seeding campaign",
+        "8,400 new Instagram followers in 10 weeks"
+      ],
+      "image": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=900&q=85&fit=crop&crop=center",
+      "placeholderClass": "service-img--ecom",
+      "featured": false,
+      "year": "2024",
+      "body": "## The Brief\n\nBloom Skincare is a two-person operation making natural, small-batch skincare products from a studio in Brunswick. They had a Shopify store but almost no traffic — and no idea how to launch on social.\n\n## Our Approach\n\nWe ran a two-track launch. First, an influencer seeding campaign: 15 carefully selected nano creators (5K-30K followers) in the skincare and wellness space received product in exchange for honest reviews. Second, we built a Meta ads funnel using the UGC content these creators produced.\n\nMichelle managed the ad creative testing — rotating through 12 different UGC clips to find the top performers, then scaling spend behind the winners.\n\n## The Results\n\nBloom achieved 2.6x ROAS on Meta from their first month of paid activity. The seeding campaign drove 8,400 new Instagram followers in 10 weeks. Three creator posts went organically viral, generating earned media value that far exceeded the seeding cost."
+    },
+    {
       "slug": "little-lane-cafe",
       "title": "Little Lane Cafe",
       "client": "Little Lane Cafe",
       "category": "Hospitality",
-      "tags": ["Instagram", "Content", "Community"],
+      "tags": [
+        "Instagram",
+        "Content",
+        "Community"
+      ],
       "description": "A neighbourhood cafe in Richmond that wanted to stand out in Melbourne's crowded coffee scene. We built a community-first content strategy that doubled their weekday covers.",
-      "results": ["2x weekday covers within 4 months", "9.8K Instagram followers (from 1.2K)", "Featured in Broadsheet Melbourne"],
+      "results": [
+        "2x weekday covers within 4 months",
+        "9.8K Instagram followers (from 1.2K)",
+        "Featured in Broadsheet Melbourne"
+      ],
       "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=900&q=85&fit=crop&crop=center",
       "placeholderClass": "service-img--hospo",
       "featured": false,
       "year": "2024",
       "body": "## The Brief\n\nLittle Lane is a corner cafe in Richmond — great coffee, beautiful space, but invisible online. The owner felt like she was competing against hundreds of identical Melbourne cafes and couldn't break through.\n\n## Our Approach\n\nWe differentiated through community content. Instead of just posting latte art and avocado toast (like every other cafe), we told stories: the regular who's been coming since day one, the barista's journey from home brewing to competition, the local artist whose work hangs on the walls.\n\nWe also launched a weekly \"Local's Pick\" Story series where followers voted on the next special menu item.\n\n## The Results\n\nLittle Lane grew from 1,200 to 9,800 Instagram followers in 4 months. Weekday covers doubled as the account became a genuine community hub. The story-driven approach caught the attention of Broadsheet Melbourne, who featured them in a round-up of the city's best neighbourhood cafes."
+    },
+    {
+      "slug": "momo-dumpling-bar",
+      "title": "Momo Dumpling Bar",
+      "client": "Momo Dumpling Bar",
+      "category": "Hospitality",
+      "tags": [
+        "TikTok",
+        "Content",
+        "Paid Social"
+      ],
+      "description": "A late-night dumpling spot in the CBD. One TikTok of their chilli oil dumplings hit 2.4M views — and they've been packed every night since.",
+      "results": [
+        "2.4M views on a single TikTok",
+        "Sold out every Friday & Saturday for 10 weeks",
+        "1,800 new followers in one week"
+      ],
+      "image": "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=900&q=85&fit=crop&crop=center",
+      "placeholderClass": "service-img--hospo",
+      "featured": false,
+      "year": "2024",
+      "body": "## The Brief\n\nMomo is a 30-seat dumpling bar on a CBD laneway. Great food, zero online presence. The owner knew social media was important but had no idea where to start.\n\n## Our Approach\n\nWe focused entirely on TikTok. The food was inherently visual — handmade dumplings, chilli oil drizzles, steam rising from bamboo baskets. We filmed a series of close-up food videos with trending audio, posting 4-5 times per week.\n\nThe breakthrough came from a 15-second clip of their signature chilli oil dumplings being pulled apart in slow motion. We boosted it with $50 in TikTok Spark Ads.\n\n## The Results\n\nThat single TikTok hit 2.4M views. Momo was sold out every Friday and Saturday for the next 10 weeks. They gained 1,800 followers in one week and now have a loyal following that drives consistent midweek traffic too."
     }
   ]
 }
