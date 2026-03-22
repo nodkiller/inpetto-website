@@ -1,10 +1,5 @@
-# Cloudflare Pages / Netlify redirects
+# Cloudflare Pages redirects
+# Note: /works/:slug and /blog/:slug are handled by Cloudflare Functions
 
 # CMS auth callback
 /admin/auth-callback  /admin/auth-callback.html  200
-
-# Blog posts — clean URL → root-level template
-/blog/:slug  /blog-post.html  200
-
-# Works — clean URL → root-level template (avoids /works/ directory collision)
-/works/:slug  /work-detail.html  200
