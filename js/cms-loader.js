@@ -36,6 +36,19 @@
     return (str || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }
 
+  /* ── RE-ATTACH REVEAL OBSERVERS after dynamic render ── */
+  function initReveals(container) {
+    if (!container) return;
+    container.querySelectorAll('.reveal').forEach(el => {
+      const obs = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+          if (e.isIntersecting) { e.target.classList.add('is-visible'); obs.unobserve(e.target); }
+        });
+      }, { threshold: 0.1 });
+      obs.observe(el);
+    });
+  }
+
   /* ================================================================
      WORKS / CASE STUDIES
   ================================================================ */
@@ -52,7 +65,7 @@
 
     if (mode === 'list') {
       container.innerHTML = works.map((w, i) => `
-        <a href="works/${w.slug}.html" class="work-item reveal reveal-delay-${Math.min(i + 1, 4)}" data-tags="${esc(w.tags ? w.tags.join(' ') : '')}">
+        <a href="/works/${w.slug}" class="work-item reveal reveal-delay-${Math.min(i + 1, 4)}" data-tags="${esc(w.tags ? w.tags.join(' ') : '')}">
           <span class="work-item__num">0${i + 1}</span>
           <div class="work-item__info">
             <div class="work-item__title">${esc(w.title)}</div>
@@ -73,7 +86,7 @@
 
     if (mode === 'grid') {
       container.innerHTML = works.map((w, i) => `
-        <a href="${w.slug}.html" class="work-card reveal" data-tags="${esc(w.tags ? w.tags.join(' ') : '')}">
+        <a href="/works/${w.slug}" class="work-card reveal" data-tags="${esc(w.tags ? w.tags.join(' ') : '')}">
           <div class="work-card__img-wrap">
             <div class="work-card__img ${esc(w.placeholderClass || 'service-img--ecom')}"
                  style="${w.image ? `background-image: url('${esc(w.image)}')` : ''}">
@@ -89,6 +102,8 @@
         </a>
       `).join('');
     }
+
+    initReveals(container);
   }
 
   /* ================================================================
@@ -109,7 +124,7 @@
       container.innerHTML = posts.map((p, i) => {
         const isFeatured = i === 0;
         return `
-          <a href="blog/${p.slug}.html" class="blog-card${isFeatured ? ' blog-card--featured' : ''} reveal">
+          <a href="/blog/${p.slug}" class="blog-card${isFeatured ? ' blog-card--featured' : ''} reveal">
             <div class="blog-card__img-wrap">
               <div class="blog-card__img ${p.placeholderClass || 'blog-img--' + ((i % 4) + 1)}"
                    style="${p.image ? `background-image: url('${esc(p.image)}')` : ''}">
@@ -134,7 +149,7 @@
     if (mode === 'preview') {
       // Horizontal recent posts
       container.innerHTML = posts.map((p, i) => `
-        <a href="blog/${p.slug}.html" class="blog-card reveal reveal-delay-${i + 1}">
+        <a href="/blog/${p.slug}" class="blog-card reveal reveal-delay-${i + 1}">
           <div class="blog-card__img-wrap">
             <div class="blog-card__img ${p.placeholderClass || 'blog-img--' + ((i % 4) + 1)}"
                  style="${p.image ? `background-image: url('${esc(p.image)}')` : ''}">
@@ -153,6 +168,8 @@
         </a>
       `).join('');
     }
+
+    initReveals(container);
   }
 
   /* ================================================================
@@ -178,6 +195,8 @@
         </div>
       </div>
     `).join('');
+
+    initReveals(container);
   }
 
   /* ================================================================
