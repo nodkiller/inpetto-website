@@ -153,10 +153,10 @@
   (async function () {
     function esc(s) { return (s||'').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
-    // Get slug from URL: works/coastal-collective.html or works/?slug=...
-    const path = window.location.pathname;
+    // Get slug from URL: /works/momo-dumpling-bar or /works/?slug=...
+    const path = window.location.pathname.replace(/\/+$/, '');
     let slug = path.split('/').pop().replace('.html','');
-    if (!slug || slug === 'index') {
+    if (!slug || slug === 'index' || slug === 'works') {
       const p = new URLSearchParams(window.location.search);
       slug = p.get('slug') || '';
     }
@@ -223,7 +223,7 @@
     const relatedEl = document.getElementById('related-works');
     if (relatedEl && related.length) {
       relatedEl.innerHTML = related.map((w, i) => `
-        <a href="${w.slug}.html" class="work-item reveal reveal-delay-${Math.min(i+1,4)}">
+        <a href="/works/${w.slug}" class="work-item reveal reveal-delay-${Math.min(i+1,4)}">
           <span class="work-item__num">0${i+1}</span>
           <div class="work-item__info">
             <div class="work-item__title">${esc(w.title)}</div>

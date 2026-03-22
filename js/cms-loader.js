@@ -229,8 +229,8 @@
     const postContainer = document.getElementById('blog-post-content');
     if (!postContainer) return;
 
-    // Get slug from URL
-    const path  = window.location.pathname;
+    // Get slug from URL: /blog/why-reels-still-win
+    const path  = window.location.pathname.replace(/\/+$/, '');
     const slug  = path.split('/').pop().replace('.html', '');
     const data  = await fetchJSON('/_posts/' + slug + '.json');
     if (!data) {
@@ -298,7 +298,7 @@
     }
 
     container.innerHTML = related.map((p, i) => `
-      <a href="${p.slug}.html" class="blog-card reveal reveal-delay-${i + 1}">
+      <a href="/blog/${p.slug}" class="blog-card reveal reveal-delay-${i + 1}">
         <div class="blog-card__img-wrap">
           <div class="blog-card__img ${p.placeholderClass || 'blog-img--' + ((i % 4) + 1)}"
                style="${p.image ? `background-image: url('${esc(p.image)}')` : ''}">
