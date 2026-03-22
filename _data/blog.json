@@ -1,16 +1,64 @@
 {
   "posts": [
     {
+      "slug": "small-business-social-mistakes",
+      "title": "5 Social Media Mistakes Small Businesses Make (And How to Fix Them)",
+      "date": "2025-03-18",
+      "author": "Michelle Lin",
+      "category": "Strategy",
+      "excerpt": "Most small businesses aren't failing at social media because of bad content. They're failing because of bad strategy. Here are the five mistakes we see most — and the fixes that actually work.",
+      "image": "",
+      "placeholderClass": "blog-img--2",
+      "featured": true,
+      "body": "## It's Not a Content Problem\n\nWhen small businesses come to us frustrated with social media, they almost always say the same thing: \"We're posting, but nothing's happening.\" The content is usually fine. The strategy is where things break.\n\nHere are the five mistakes we see most often — and exactly how to fix them.\n\n## Mistake 1: Posting Without a Content Pillar System\n\nIf every post is a product shot, you're boring your audience. If every post is a meme, you're entertaining but not converting. You need 3-4 content pillars that balance brand building with sales.\n\n**Fix:** Define your pillars. For most small businesses, we recommend: Product (30%), Education (30%), Behind-the-Scenes (25%), Community/UGC (15%).\n\n## Mistake 2: Ignoring Stories and DMs\n\nThe feed is your shopfront. Stories and DMs are where relationships happen. Most small businesses post to the feed and ignore everything else.\n\n**Fix:** Post 3-5 Stories per day. Reply to every DM within 2 hours. Use polls, questions, and quizzes to drive interaction.\n\n## Mistake 3: Chasing Vanity Metrics\n\nFollower count means nothing if those followers aren't buying. We've seen accounts with 50K followers and zero sales, and accounts with 3K followers doing $20K months.\n\n**Fix:** Track metrics that matter: saves, shares, profile visits, link clicks, and DM enquiries. These are buying signals.\n\n## Mistake 4: No Call to Action\n\nEvery post needs a job. If you don't tell people what to do, they'll do nothing.\n\n**Fix:** End every post with a clear CTA: \"Save this for later,\" \"Share with a friend who needs this,\" \"Link in bio to shop,\" or \"DM us 'MENU' for our full list.\"\n\n## Mistake 5: Trying to Be Everywhere\n\nYou don't need to be on Instagram, TikTok, Facebook, LinkedIn, Pinterest, and YouTube. You need to be excellent on one or two platforms where your customers actually spend time.\n\n**Fix:** Pick your primary platform based on where your audience is. Go deep. Master it. Only expand when you've built a sustainable rhythm.\n\n## The Takeaway\n\nSocial media works for small businesses — but only with the right strategy underneath it. Fix these five things and you'll see results within 30 days."
+    },
+    {
+      "slug": "instagram-carousel-strategy",
+      "title": "The Instagram Carousel Is Quietly Outperforming Every Other Format",
+      "date": "2025-03-10",
+      "author": "Selina Fan",
+      "category": "Instagram",
+      "excerpt": "Everyone's obsessed with Reels. Meanwhile, carousels are generating 3x the saves and 2x the shares. Here's why — and exactly how we structure ours.",
+      "image": "",
+      "placeholderClass": "blog-img--1",
+      "featured": false,
+      "body": "## Reels Get Reach. Carousels Get Results.\n\nReels are great for discovery. But when we look at the metrics that actually matter for business — saves, shares, profile visits, and link clicks — **carousels win every time**.\n\nAcross our client accounts, carousels generate:\n- 3.1x more saves than Reels\n- 2.2x more shares than static posts\n- 40% higher profile visit rate\n\n## Why Carousels Work\n\nA carousel is a micro-story. The swipe mechanic creates commitment — once someone swipes to slide 2, they're 80% likely to reach the end. That sustained attention is gold for both the algorithm and your message.\n\n## Our 6-Slide Formula\n\nAfter testing hundreds of carousels, here's the structure that consistently performs:\n\n1. **Hook slide** — Bold statement or question that creates curiosity\n2. **Problem slide** — Validate the pain point your audience feels\n3. **Insight slide** — Share something surprising or counterintuitive\n4. **Solution slides (2-3)** — Deliver actionable value\n5. **CTA slide** — Tell them exactly what to do next (save, share, follow, link in bio)\n\n## Design Tips That Move the Needle\n\n- Use a consistent visual system (fonts, colours, layout) so your carousels are instantly recognisable\n- Keep text to 30 words or fewer per slide\n- Use the first slide as if it were a Reel thumbnail — it needs to stop the scroll\n- Add subtle visual cues (arrows, \"swipe\" text) on slides 1-2 to train the behaviour\n\n## The Takeaway\n\nDon't abandon Reels — but if you're not posting carousels weekly, you're leaving engagement on the table. They're the highest-intent format on Instagram, and they compound over time as people save and revisit them."
+    },
+    {
+      "slug": "ugc-strategy-guide",
+      "title": "UGC Strategy: Turning Your Customers into Your Best Creators",
+      "date": "2025-02-22",
+      "author": "Chloe Wang",
+      "category": "Content",
+      "excerpt": "User-generated content outperforms brand content by 4x on average. Here's how to build a UGC engine that feeds your organic and paid channels — without spending a fortune.",
+      "image": "",
+      "placeholderClass": "blog-img--3",
+      "featured": false,
+      "body": "## Why UGC Wins\n\nWe've tested this across every client account we manage: user-generated content consistently outperforms brand-created content. On average, UGC gets **4x the engagement** and **2.5x the click-through rate** compared to polished brand posts.\n\nWhy? Because it looks real. And real is what people trust.\n\n## How to Build a UGC Engine\n\n### Step 1: Make Sharing Effortless\n\nThe number one reason customers don't post about your brand is friction. Make it easy: include social handles on packaging, create a branded hashtag, and tell people exactly what to post.\n\n### Step 2: Incentivise Without Cheapening\n\nDon't pay for UGC — earn it. The best incentives are recognition (reposting their content), access (early drops, behind-the-scenes), and community (making them feel like insiders).\n\n### Step 3: Curate Ruthlessly\n\nNot all UGC is good UGC. Build a simple scoring system: Does it show the product clearly? Is the quality acceptable for reposting? Does it match your brand tone?\n\n### Step 4: Repurpose for Paid\n\nThe real power of UGC is in paid ads. We take top-performing organic UGC and run it as Spark Ads on TikTok or partnership ads on Meta. The results are consistently 2-3x better than traditional ad creative.\n\n## The Takeaway\n\nYou don't need a massive content budget. You need a system that turns happy customers into willing creators — and a strategy that puts their content to work across every channel."
+    },
+    {
+      "slug": "tiktok-algorithm-2025",
+      "title": "Cracking the TikTok Algorithm: What Actually Works in 2025",
+      "date": "2025-02-03",
+      "author": "Kevin Chen",
+      "category": "TikTok",
+      "excerpt": "The TikTok algorithm isn't a mystery — it's a system. Here's what we've learned from managing 20+ brand accounts about what the algorithm actually rewards right now.",
+      "image": "",
+      "placeholderClass": "blog-img--2",
+      "featured": false,
+      "body": "## The Algorithm Isn't Random\n\nLet's get one thing out of the way: the TikTok algorithm is not random, and it's not unfair. It's a recommendation engine built on one metric above all — **watch time**. Every other signal (likes, shares, comments, follows) is secondary.\n\nIf people watch your video to the end, TikTok shows it to more people. Simple.\n\n## What We've Learned From 20+ Brand Accounts\n\nAfter managing TikTok for over 20 Australian brands, here's what we know works in 2025:\n\n### 1. The First Frame Is Everything\n\nYou have less than one second to stop the scroll. The most effective hooks we've tested are mid-action openings.\n\n### 2. Native Beats Polished\n\nBrand accounts that post content shot on iPhones consistently outperform those posting studio-quality video.\n\n### 3. Sound Matters More Than You Think\n\nTrending sounds still drive discovery, but original audio is gaining weight.\n\n### 4. Post Frequency > Post Quality\n\nAccounts posting 5x per week grow 3x faster than those posting 2x per week.\n\n## The Takeaway\n\nStop overthinking and start posting. Film natively, hook early, use sound strategically, and show up every day."
+    },
+    {
       "slug": "why-reels-still-win",
       "title": "Why Reels Still Win in 2025 (And How to Make Yours Convert)",
       "date": "2025-01-15",
-      "author": "Mia Chen",
+      "author": "Selina Fan",
       "category": "Strategy",
       "excerpt": "Short-form video isn't going anywhere. But the game has changed. Here's what's actually working on Reels right now — and why most brands are still doing it wrong.",
       "image": "",
       "placeholderClass": "blog-img--1",
-      "featured": true,
-      "body": "## The State of Reels in 2025\n\nShort-form video has dominated the conversation for years. But in 2025, the brands winning on Reels aren't the ones making the most polished content — they're the ones who understand one fundamental truth: **the algorithm rewards watch time, and watch time is earned in the first two seconds.**\n\n## Why Reels Are Still the Highest-Leverage Format\n\nDespite noise about new platforms, Instagram Reels continues to deliver the highest organic reach of any content type on Meta. Our data across 30+ client accounts shows an average reach 3.2× higher for Reels compared to static posts.\n\n## The 2-Second Hook Formula\n\nFormats that consistently outperform:\n\n- Leading with a bold, contrarian statement\n- Opening mid-action — skip the title cards\n- Addressing the viewer directly\n- Creating visual contrast in the first frame\n\n## The Takeaway\n\nReels aren't going anywhere. But the era of 'just post a lot' is over. Every Reel needs a clear hook, a purpose, and a call to action."
+      "featured": false,
+      "body": "## The State of Reels in 2025\n\nShort-form video has dominated the conversation for years. But in 2025, the brands winning on Reels aren't the ones making the most polished content — they're the ones who understand one fundamental truth: **the algorithm rewards watch time, and watch time is earned in the first two seconds.**\n\n## Why Reels Are Still the Highest-Leverage Format\n\nDespite noise about new platforms, Instagram Reels continues to deliver the highest organic reach of any content type on Meta. Our data across 30+ client accounts shows an average reach 3.2x higher for Reels compared to static posts.\n\n## The 2-Second Hook Formula\n\nFormats that consistently outperform:\n\n- Leading with a bold, contrarian statement\n- Opening mid-action — skip the title cards\n- Addressing the viewer directly\n- Creating visual contrast in the first frame\n\n## The Takeaway\n\nReels aren't going anywhere. But the era of 'just post a lot' is over. Every Reel needs a clear hook, a purpose, and a call to action."
     }
   ]
 }

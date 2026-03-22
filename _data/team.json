@@ -3,64 +3,43 @@
     {
       "name": "Selina Fan",
       "role": "Founder & Creative Director",
-      "bio": "Selina founded Inpetto after 7 years leading brand and content strategy at agencies across Melbourne and Shanghai. She's obsessed with the intersection of creativity and culture — and building brands that actually mean something.",
-      "image": "https://randomuser.me/api/portraits/women/44.jpg",
+      "bio": "Selina founded Inpetto after 7 years leading brand and content strategy at agencies across Melbourne and Shanghai. She's obsessed with the intersection of creativity and culture — and building brands that actually mean something on social.",
+      "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&q=85&fit=crop&crop=face",
       "placeholderClass": "team-img--1",
       "socials": {
-        "instagram": "https://instagram.com/",
-        "linkedin": "https://linkedin.com/"
-      }
-    },
-    {
-      "name": "James Moretti",
-      "role": "Head of Strategy",
-      "bio": "James leads strategy across all client accounts. With a background in digital marketing at a Big 4 consulting firm, he brings rigour and creativity in equal measure.",
-      "image": "https://randomuser.me/api/portraits/men/32.jpg",
-      "placeholderClass": "team-img--2",
-      "socials": {
-        "linkedin": "https://linkedin.com/"
-      }
-    },
-    {
-      "name": "Chloe Wang",
-      "role": "Paid Social Lead",
-      "bio": "Chloe manages paid social across Meta and TikTok for Inpetto's clients. She's overseen $2M+ in ad spend and has a talent for finding the creative angles that convert.",
-      "image": "https://randomuser.me/api/portraits/women/65.jpg",
-      "placeholderClass": "team-img--3",
-      "socials": {
-        "linkedin": "https://linkedin.com/"
+        "instagram": "https://instagram.com/selinafan",
+        "linkedin": "https://linkedin.com/in/selinafan"
       }
     },
     {
       "name": "Kevin Chen",
-      "role": "Content Director",
-      "bio": "Kevin leads content production at Inpetto — overseeing video, photography, and design. He's worked with brands from streetwear startups to ASX-listed companies.",
-      "image": "https://randomuser.me/api/portraits/men/75.jpg",
-      "placeholderClass": "team-img--1",
+      "role": "Content & Strategy Lead",
+      "bio": "Kevin leads content production and strategy at Inpetto — overseeing video, photography, and campaign direction. Before Inpetto, he spent 4 years at a top Melbourne creative agency working with DTC and hospitality brands.",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=85&fit=crop&crop=face",
+      "placeholderClass": "team-img--2",
       "socials": {
-        "instagram": "https://instagram.com/",
-        "linkedin": "https://linkedin.com/"
+        "linkedin": "https://linkedin.com/in/kevinchen"
       }
     },
     {
       "name": "Michelle Lin",
-      "role": "Influencer Manager",
-      "bio": "Michelle manages Inpetto's influencer relationships and campaigns. She's built partnerships with 500+ creators across lifestyle, fashion, beauty, and food verticals.",
-      "image": "https://randomuser.me/api/portraits/women/56.jpg",
-      "placeholderClass": "team-img--2",
+      "role": "Paid Social & Analytics",
+      "bio": "Michelle manages paid social across Meta and TikTok for all Inpetto clients. She's managed over $1.5M in ad spend and has a sharp eye for the creative angles that actually convert.",
+      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&q=85&fit=crop&crop=face",
+      "placeholderClass": "team-img--3",
       "socials": {
-        "instagram": "https://instagram.com/",
-        "linkedin": "https://linkedin.com/"
+        "linkedin": "https://linkedin.com/in/michellelin"
       }
     },
     {
-      "name": "Jason Liu",
-      "role": "Analytics & Growth",
-      "bio": "Jason turns data into decisions. He builds reporting dashboards, tracks growth metrics, and ensures every strategy is grounded in real insights — not guesswork.",
-      "image": "https://randomuser.me/api/portraits/men/88.jpg",
-      "placeholderClass": "team-img--3",
+      "name": "Chloe Wang",
+      "role": "Community & Influencer Manager",
+      "bio": "Chloe manages influencer partnerships and community engagement across all client accounts. She's built relationships with 300+ creators in lifestyle, food, beauty, and fitness verticals across Australia.",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=85&fit=crop&crop=face",
+      "placeholderClass": "team-img--1",
       "socials": {
-        "linkedin": "https://linkedin.com/"
+        "instagram": "https://instagram.com/chloewang",
+        "linkedin": "https://linkedin.com/in/chloewang"
       }
     }
   ]
