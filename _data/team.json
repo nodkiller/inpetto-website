@@ -1,14 +1,14 @@
 {
   "team": [
     {
-      "name": "Selina Fan",
-      "role": "Founder & Creative Director",
-      "bio": "Selina founded Inpetto after 7 years leading brand and content strategy at agencies across Melbourne and Shanghai. She's obsessed with the intersection of creativity and culture — and building brands that actually mean something on social.",
-      "image": "https://images.unsplash.com/photo-1659482634023-2c4fda99ac0c?w=400&q=85&fit=crop&crop=face&facepad=2",
+      "name": "Chloe Wang",
+      "role": "Community & Influencer Manager",
+      "bio": "Chloe manages influencer partnerships and community engagement across all client accounts. She's built relationships with 300+ creators in lifestyle, food, beauty, and fitness verticals across Australia.",
+      "image": "https://images.unsplash.com/photo-1665686306574-1ace09918530?w=400&q=85&fit=crop&crop=face&facepad=2",
       "placeholderClass": "team-img--1",
       "socials": {
-        "instagram": "https://instagram.com/selinafan",
-        "linkedin": "https://linkedin.com/in/selinafan"
+        "instagram": "https://instagram.com/chloewang",
+        "linkedin": "https://linkedin.com/in/chloewang"
       }
     },
     {
@@ -32,14 +32,14 @@
       }
     },
     {
-      "name": "Chloe Wang",
-      "role": "Community & Influencer Manager",
-      "bio": "Chloe manages influencer partnerships and community engagement across all client accounts. She's built relationships with 300+ creators in lifestyle, food, beauty, and fitness verticals across Australia.",
-      "image": "https://images.unsplash.com/photo-1665686306574-1ace09918530?w=400&q=85&fit=crop&crop=face&facepad=2",
+      "name": "Selina Fan",
+      "role": "Founder & Creative Director",
+      "bio": "Selina founded Inpetto after 7 years leading brand and content strategy at agencies across Melbourne and Shanghai. She's obsessed with the intersection of creativity and culture — and building brands that actually mean something on social.",
+      "image": "https://images.unsplash.com/photo-1659482634023-2c4fda99ac0c?w=400&q=85&fit=crop&crop=face&facepad=2",
       "placeholderClass": "team-img--1",
       "socials": {
-        "instagram": "https://instagram.com/chloewang",
-        "linkedin": "https://linkedin.com/in/chloewang"
+        "instagram": "https://instagram.com/selinafan",
+        "linkedin": "https://linkedin.com/in/selinafan"
       }
     }
   ]
