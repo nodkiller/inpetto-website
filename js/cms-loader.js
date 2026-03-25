@@ -188,7 +188,7 @@
         return `
           <div class="team-card team-card--photo reveal reveal-delay-${Math.min(i + 1, 4)}">
             <div class="team-card__img-wrap">
-              <div class="team-card__img ${m.placeholderClass || 'team-img--' + ((i % 3) + 1)}"
+              <div class="team-card__img"
                    style="background-image: url('${esc(m.image)}')">
               </div>
             </div>
