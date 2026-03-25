@@ -195,6 +195,7 @@
             <div class="team-card__info">
               <div class="team-card__name">${esc(m.name)}</div>
               <div class="team-card__role">${esc(m.role)}</div>
+              ${m.bio ? `<div class="team-card__bio">${esc(m.bio)}</div>` : ''}
             </div>
           </div>`;
       }
