@@ -182,19 +182,34 @@
     const data = await fetchJSON('/_data/team.json');
     if (!data || !data.team) return;
 
-    container.innerHTML = data.team.map((m, i) => `
-      <div class="team-card reveal reveal-delay-${Math.min(i + 1, 4)}">
-        <div class="team-card__img-wrap">
-          <div class="team-card__img ${m.placeholderClass || 'team-img--' + ((i % 3) + 1)}"
-               style="${m.image ? `background-image: url('${esc(m.image)}')` : ''}">
+    container.innerHTML = data.team.map((m, i) => {
+      const initials = m.name.split(' ').map(w => w[0]).join('');
+      if (m.image) {
+        return `
+          <div class="team-card team-card--photo reveal reveal-delay-${Math.min(i + 1, 4)}">
+            <div class="team-card__img-wrap">
+              <div class="team-card__img ${m.placeholderClass || 'team-img--' + ((i % 3) + 1)}"
+                   style="background-image: url('${esc(m.image)}')">
+              </div>
+            </div>
+            <div class="team-card__info">
+              <div class="team-card__name">${esc(m.name)}</div>
+              <div class="team-card__role">${esc(m.role)}</div>
+            </div>
+          </div>`;
+      }
+      return `
+        <div class="team-card team-card--text reveal reveal-delay-${Math.min(i + 1, 4)}">
+          <div class="team-card__initial-wrap ${m.placeholderClass || 'team-img--' + ((i % 3) + 1)}">
+            <span class="team-card__initial">${esc(initials)}</span>
           </div>
-        </div>
-        <div class="team-card__info">
-          <div class="team-card__name">${esc(m.name)}</div>
-          <div class="team-card__role">${esc(m.role)}</div>
-        </div>
-      </div>
-    `).join('');
+          <div class="team-card__info">
+            <div class="team-card__name">${esc(m.name)}</div>
+            <div class="team-card__role">${esc(m.role)}</div>
+            ${m.bio ? `<div class="team-card__bio">${esc(m.bio)}</div>` : ''}
+          </div>
+        </div>`;
+    }).join('');
 
     initReveals(container);
   }

@@ -1200,6 +1200,33 @@ input, textarea { font: inherit; }
 .team-img--2 { background: linear-gradient(160deg, #1a1425 0%, #3d2450 50%, #1a1425 100%); }
 .team-img--3 { background: linear-gradient(160deg, #12181a 0%, #243d40 50%, #12181a 100%); }
 
+/* Team card — text-only variant (no photo) */
+.team-card--text {
+  display: flex;
+  flex-direction: column;
+}
+.team-card__initial-wrap {
+  width: 100%;
+  aspect-ratio: 3/4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team-card__initial {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(48px, 6vw, 80px);
+  color: rgba(255,255,255,0.12);
+  letter-spacing: 4px;
+  user-select: none;
+}
+.team-card__bio {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin-top: 8px;
+}
+
 /* Values */
 .values-grid {
   display: grid;
