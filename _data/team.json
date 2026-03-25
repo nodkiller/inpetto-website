@@ -5,7 +5,6 @@
       "role": "Founder & Creative Director",
       "bio": "Selina founded Inpetto after 7 years leading brand and content strategy at agencies across Melbourne and Shanghai. She's obsessed with the intersection of creativity and culture — and building brands that actually mean something on social.",
       "image": "/assets/team/selina.jpg",
-      "placeholderClass": "team-img--1",
       "socials": {
         "instagram": "https://instagram.com/selinafan",
         "linkedin": "https://linkedin.com/in/selinafan"
@@ -16,7 +15,6 @@
       "role": "Community & Influencer Manager",
       "bio": "Chloe manages influencer partnerships and community engagement across all client accounts. She's built relationships with 300+ creators in lifestyle, food, beauty, and fitness verticals across Australia.",
       "image": "/assets/team/chloe.jpg",
-      "placeholderClass": "team-img--1",
       "socials": {
         "instagram": "https://instagram.com/chloewang",
         "linkedin": "https://linkedin.com/in/chloewang"
@@ -26,8 +24,7 @@
       "name": "Kevin Chen",
       "role": "Content & Strategy Lead",
       "bio": "Kevin leads content production and strategy at Inpetto — overseeing video, photography, and campaign direction. Before Inpetto, he spent 4 years at a top Melbourne creative agency working with DTC and hospitality brands.",
-      "image": "",
-      "placeholderClass": "team-img--2",
+      "image": "/assets/team/kevin.jpg",
       "socials": {
         "linkedin": "https://linkedin.com/in/kevinchen"
       }
@@ -36,8 +33,7 @@
       "name": "Michelle Lin",
       "role": "Paid Social & Analytics",
       "bio": "Michelle manages paid social across Meta and TikTok for all Inpetto clients. She's managed over $1.5M in ad spend and has a sharp eye for the creative angles that actually convert.",
-      "image": "",
-      "placeholderClass": "team-img--3",
+      "image": "/assets/team/michelle.jpg",
       "socials": {
         "linkedin": "https://linkedin.com/in/michellelin"
       }
