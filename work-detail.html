@@ -10,6 +10,47 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/css/style.css" />
+  <style>
+    /* Case study detail page styles */
+    .case-hero { padding: clamp(120px,15vw,200px) 0 clamp(60px,8vw,100px); }
+    .case-hero__location { font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 16px; }
+    .case-hero__title { font-family: var(--font-display); font-weight: 800; font-size: clamp(32px,5vw,64px); line-height: 1.05; max-width: 900px; margin-bottom: 24px; }
+    .case-hero__desc { font-size: clamp(16px,1.8vw,20px); line-height: 1.6; color: var(--text-muted); max-width: 640px; }
+    .case-hero__tags { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 32px; }
+
+    .case-img { width: 100%; height: clamp(300px,50vw,640px); background-size: cover; background-position: center; background-color: var(--bg-3); }
+
+    /* Narrative sections */
+    .case-narrative { padding: clamp(60px,8vw,120px) 0; }
+    .case-section { border-top: 1px solid var(--border); padding: clamp(40px,5vw,64px) 0; }
+    .case-section__header { display: flex; align-items: baseline; gap: 24px; margin-bottom: 24px; cursor: pointer; }
+    .case-section__num { font-family: var(--font-display); font-weight: 700; font-size: 14px; color: var(--accent); min-width: 28px; }
+    .case-section__label { font-family: var(--font-display); font-weight: 700; font-size: clamp(20px,2.5vw,32px); }
+    .case-section__toggle { margin-left: auto; font-size: 20px; color: var(--text-muted); transition: transform 0.3s ease; }
+    .case-section.is-open .case-section__toggle { transform: rotate(45deg); }
+    .case-section__body { max-height: 0; overflow: hidden; transition: max-height 0.5s ease; }
+    .case-section.is-open .case-section__body { max-height: 2000px; }
+    .case-section__content { padding: 0 0 0 52px; max-width: 720px; }
+    .case-section__content p { font-size: 16px; line-height: 1.75; color: var(--text-muted); margin-bottom: 20px; }
+
+    /* Results grid */
+    .case-results { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2px; background: var(--border); margin-top: clamp(40px,5vw,80px); }
+    .case-result-card { background: var(--bg); padding: clamp(24px,3vw,40px); }
+    .case-result-card__check { color: var(--accent); font-size: 18px; margin-bottom: 12px; display: block; }
+    .case-result-card__text { font-size: 15px; line-height: 1.5; color: var(--text); }
+
+    /* Impact quote */
+    .case-impact-quote { font-family: var(--font-display); font-size: clamp(20px,3vw,36px); font-weight: 600; line-height: 1.3; max-width: 800px; margin: clamp(40px,6vw,80px) 0; }
+    .case-impact-quote em { color: var(--accent); font-style: normal; }
+
+    @media (max-width: 768px) {
+      .case-section__content { padding-left: 0; }
+      .case-results { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 480px) {
+      .case-results { grid-template-columns: 1fr; }
+    }
+  </style>
 </head>
 <body>
 
@@ -43,49 +84,66 @@
   </div>
 
   <!-- CASE STUDY HERO -->
-  <header class="post-header" id="work-header">
-    <a href="/works.html" class="btn btn-ghost" style="margin-bottom: 32px; display: inline-flex; font-size: 13px; color: var(--text-muted);">
-      ← Back to Work
-    </a>
-    <div class="post-cat" id="work-category">Case Study</div>
-    <h1 class="display-2" id="work-title" style="margin: 16px 0 24px; max-width: 800px;">Loading…</h1>
-    <div style="display:flex; gap: 12px; flex-wrap: wrap; margin-bottom: 40px;" id="work-tags"></div>
+  <header class="case-hero" id="work-header">
+    <div class="container">
+      <a href="/works.html" class="btn btn-ghost" style="margin-bottom: 40px; display: inline-flex; font-size: 13px; color: var(--text-muted);">
+        ← All Work
+      </a>
+      <div class="case-hero__location" id="work-location">Melbourne</div>
+      <h1 class="case-hero__title" id="work-title">Loading…</h1>
+      <p class="case-hero__desc" id="work-description"></p>
+      <div class="case-hero__tags" id="work-tags"></div>
+    </div>
   </header>
 
   <!-- HERO IMAGE -->
-  <div id="work-hero-img" style="width:100%; height: clamp(300px, 50vw, 600px); background-size:cover; background-position:center; background-color: var(--bg-3);"></div>
+  <div class="case-img" id="work-hero-img"></div>
 
-  <!-- CONTENT -->
+  <!-- NARRATIVE: Challenge → Approach → Impact -->
+  <div class="case-narrative">
+    <div class="container">
+
+      <div class="case-section is-open" id="section-challenge">
+        <div class="case-section__header" onclick="this.parentElement.classList.toggle('is-open')">
+          <span class="case-section__num">01</span>
+          <span class="case-section__label">Challenge</span>
+          <span class="case-section__toggle">+</span>
+        </div>
+        <div class="case-section__body">
+          <div class="case-section__content" id="work-challenge"></div>
+        </div>
+      </div>
+
+      <div class="case-section" id="section-approach">
+        <div class="case-section__header" onclick="this.parentElement.classList.toggle('is-open')">
+          <span class="case-section__num">02</span>
+          <span class="case-section__label">Our Approach</span>
+          <span class="case-section__toggle">+</span>
+        </div>
+        <div class="case-section__body">
+          <div class="case-section__content" id="work-approach"></div>
+        </div>
+      </div>
+
+      <div class="case-section" id="section-impact">
+        <div class="case-section__header" onclick="this.parentElement.classList.toggle('is-open')">
+          <span class="case-section__num">03</span>
+          <span class="case-section__label">Impact</span>
+          <span class="case-section__toggle">+</span>
+        </div>
+        <div class="case-section__body">
+          <div class="case-section__content" id="work-impact"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- RESULTS -->
   <section class="section">
     <div class="container">
-      <div class="grid-2" style="gap: clamp(40px, 6vw, 100px); align-items: start;">
-
-        <!-- Main body -->
-        <div>
-          <p class="body-lg reveal" id="work-description" style="margin-bottom: 40px;"></p>
-          <div id="work-body" class="post-content reveal reveal-delay-1"></div>
-        </div>
-
-        <!-- Sidebar: results -->
-        <div>
-          <div style="position: sticky; top: 100px;">
-            <div class="label reveal" style="margin-bottom: 24px;">Results</div>
-            <ul id="work-results" style="list-style:none; padding:0; margin:0;"></ul>
-
-            <div style="margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--border);">
-              <div class="label reveal" style="margin-bottom: 16px;">Year</div>
-              <div class="heading-1 reveal reveal-delay-1" id="work-year" style="color: var(--accent);"></div>
-            </div>
-
-            <div style="margin-top: 40px;">
-              <a href="/contact.html" class="btn btn-primary reveal reveal-delay-2" style="width: 100%; justify-content: center;">
-                Start a Project
-              </a>
-            </div>
-          </div>
-        </div>
-
-      </div>
+      <span class="label reveal">Results</span>
+      <div class="case-results" id="work-results"></div>
     </div>
   </section>
 
@@ -140,7 +198,7 @@
         </div>
       </div>
       <div class="footer__bottom">
-        <span class="footer__copy">© 2026 Inpetto Pty Ltd. All rights reserved.</span>
+        <span class="footer__copy">&copy; 2026 Inpetto Pty Ltd. All rights reserved.</span>
         <span class="footer__location">Melbourne, VIC, Australia</span>
       </div>
     </div>
@@ -152,8 +210,15 @@
   <script>
   (async function () {
     function esc(s) { return (s||'').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+    function mdToHTML(text) {
+      if (!text) return '';
+      return text.split('\n').map(line => {
+        if (!line.trim()) return '';
+        return '<p>' + line.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\*(.+?)\*/g, '<em>$1</em>') + '</p>';
+      }).filter(Boolean).join('');
+    }
 
-    // Get slug from URL: /works/momo-dumpling-bar
+    // Extract slug from URL
     const path = window.location.pathname.replace(/\/+$/, '');
     const parts = path.split('/').filter(Boolean);
     let slug = parts.length >= 2 ? parts[parts.length - 1] : '';
@@ -169,21 +234,26 @@
       return;
     }
 
-    const res = await fetch('/_data/works.json?v=' + Date.now());
-    const data = await res.json();
-    const work = data.works.find(w => w.slug === slug);
+    let data;
+    try {
+      const res = await fetch('/_data/works.json?v=' + Date.now());
+      data = await res.json();
+    } catch (e) {
+      document.getElementById('work-title').textContent = 'Failed to load data';
+      return;
+    }
 
+    const work = data.works.find(w => w.slug === slug);
     if (!work) {
       document.getElementById('work-title').textContent = 'Work not found';
       return;
     }
 
-    // Populate
-    document.title = work.title + ' — Inpetto';
+    // Populate hero
+    document.title = work.client + ' — Inpetto';
     document.getElementById('work-title').textContent = work.title;
-    document.getElementById('work-category').textContent = work.category || 'Case Study';
     document.getElementById('work-description').textContent = work.description || '';
-    document.getElementById('work-year').textContent = work.year || '';
+    document.getElementById('work-location').textContent = (work.location || work.category || 'Melbourne') + ' — ' + (work.year || '');
 
     if (work.image) {
       document.getElementById('work-hero-img').style.backgroundImage = "url('" + work.image + "')";
@@ -198,28 +268,23 @@
       tagsEl.appendChild(span);
     });
 
-    // Results
+    // Narrative sections: Challenge, Approach, Impact
+    document.getElementById('work-challenge').innerHTML = mdToHTML(work.challenge || '');
+    document.getElementById('work-approach').innerHTML = mdToHTML(work.approach || '');
+    document.getElementById('work-impact').innerHTML = mdToHTML(work.impact || '');
+
+    // Auto-open all sections with a stagger
+    setTimeout(() => document.getElementById('section-approach').classList.add('is-open'), 300);
+    setTimeout(() => document.getElementById('section-impact').classList.add('is-open'), 600);
+
+    // Results cards
     const resultsEl = document.getElementById('work-results');
     (work.results || []).forEach(r => {
-      const li = document.createElement('li');
-      li.className = 'reveal';
-      li.style.cssText = 'padding: 16px 0; border-bottom: 1px solid var(--border); font-size: 15px; color: var(--text);';
-      li.innerHTML = '<span style="color:var(--accent); margin-right:10px;">✓</span>' + esc(r);
-      resultsEl.appendChild(li);
+      const div = document.createElement('div');
+      div.className = 'case-result-card reveal';
+      div.innerHTML = '<span class="case-result-card__check">&#10003;</span><span class="case-result-card__text">' + esc(r) + '</span>';
+      resultsEl.appendChild(div);
     });
-
-    // Body markdown
-    if (work.body) {
-      const bodyEl = document.getElementById('work-body');
-      bodyEl.innerHTML = work.body
-        .split('\n\n')
-        .map(block => {
-          if (/^##\s/.test(block)) return '<h2 style="font-family:var(--font-display);font-size:clamp(20px,2.5vw,32px);margin:40px 0 16px;">' + block.replace(/^##\s/,'') + '</h2>';
-          if (/^#\s/.test(block)) return '<h1 style="font-family:var(--font-display);font-size:clamp(24px,3vw,40px);margin:40px 0 16px;">' + block.replace(/^#\s/,'') + '</h1>';
-          return '<p style="color:var(--text-muted);line-height:1.75;margin-bottom:20px;">' + block + '</p>';
-        })
-        .join('');
-    }
 
     // Related works (up to 3, excluding current)
     const related = data.works.filter(w => w.slug !== slug).slice(0, 3);
@@ -229,11 +294,11 @@
         <a href="/works/${w.slug}" class="work-item reveal reveal-delay-${Math.min(i+1,4)}">
           <span class="work-item__num">0${i+1}</span>
           <div class="work-item__info">
-            <div class="work-item__title">${esc(w.title)}</div>
-            <div class="work-item__client">${esc(w.client)}</div>
+            <div class="work-item__title">${esc(w.client)}</div>
+            <div class="work-item__client">${esc(w.location || w.category)}</div>
           </div>
           <div class="work-item__right">
-            <div class="work-item__tags">${(w.tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>
+            <div class="work-item__tags">${(w.tags||[]).slice(0,2).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>
             <div class="work-item__arrow">↗</div>
           </div>
           <div class="work-item__img-wrap">
@@ -243,7 +308,7 @@
       `).join('');
     }
 
-    // Trigger reveal animations
+    // Init reveal animations
     document.querySelectorAll('.reveal').forEach(el => {
       const obs = new IntersectionObserver(entries => {
         entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('is-visible'); obs.unobserve(e.target); } });

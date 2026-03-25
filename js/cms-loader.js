@@ -68,8 +68,8 @@
         <a href="/works/${w.slug}" class="work-item reveal reveal-delay-${Math.min(i + 1, 4)}" data-tags="${esc(w.tags ? w.tags.join(' ') : '')}">
           <span class="work-item__num">0${i + 1}</span>
           <div class="work-item__info">
-            <div class="work-item__title">${esc(w.title)}</div>
-            <div class="work-item__client">${esc(w.client)}</div>
+            <div class="work-item__title">${esc(w.client)}</div>
+            <div class="work-item__client">${esc(w.location || w.category)}</div>
           </div>
           <div class="work-item__right">
             <div class="work-item__tags">
